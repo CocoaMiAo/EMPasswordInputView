@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8535E6351EDFB02700D06F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E6341EDFB02600D06F16 /* main.m */; };
+		8535E6381EDFB02700D06F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E6371EDFB02700D06F16 /* AppDelegate.m */; };
+		8535E63B1EDFB02700D06F16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E63A1EDFB02700D06F16 /* ViewController.m */; };
+		8535E63E1EDFB02800D06F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8535E63C1EDFB02800D06F16 /* Main.storyboard */; };
+		8535E6401EDFB02900D06F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8535E63F1EDFB02900D06F16 /* Assets.xcassets */; };
+		8535E6431EDFB02900D06F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8535E6411EDFB02900D06F16 /* LaunchScreen.storyboard */; };
+		8535E64E1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E64D1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.m */; };
+		8535E6591EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E6581EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.m */; };
+		8535E6691EDFB14D00D06F16 /* EMPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8535E6681EDFB14D00D06F16 /* EMPasswordInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8535E64A1EDFB02A00D06F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8535E6281EDFB02600D06F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8535E62F1EDFB02600D06F16;
+			remoteInfo = EMPasswordIInputViewDemo;
+		};
+		8535E6551EDFB02A00D06F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8535E6281EDFB02600D06F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8535E62F1EDFB02600D06F16;
+			remoteInfo = EMPasswordIInputViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8535E6301EDFB02600D06F16 /* EMPasswordIInputViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMPasswordIInputViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8535E6341EDFB02600D06F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8535E6361EDFB02700D06F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8535E6371EDFB02700D06F16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8535E6391EDFB02700D06F16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8535E63A1EDFB02700D06F16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8535E63D1EDFB02800D06F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8535E63F1EDFB02900D06F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8535E6421EDFB02900D06F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8535E6441EDFB02900D06F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8535E6491EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMPasswordIInputViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8535E64D1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMPasswordIInputViewDemoTests.m; sourceTree = "<group>"; };
+		8535E64F1EDFB02A00D06F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8535E6541EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMPasswordIInputViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8535E6581EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMPasswordIInputViewDemoUITests.m; sourceTree = "<group>"; };
+		8535E65A1EDFB02A00D06F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8535E6671EDFB14D00D06F16 /* EMPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPasswordInputView.h; sourceTree = "<group>"; };
+		8535E6681EDFB14D00D06F16 /* EMPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPasswordInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8535E62D1EDFB02600D06F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6461EDFB02A00D06F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6511EDFB02A00D06F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8535E6271EDFB02500D06F16 = {
+			isa = PBXGroup;
+			children = (
+				8535E6321EDFB02600D06F16 /* EMPasswordIInputViewDemo */,
+				8535E64C1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests */,
+				8535E6571EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests */,
+				8535E6311EDFB02600D06F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8535E6311EDFB02600D06F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8535E6301EDFB02600D06F16 /* EMPasswordIInputViewDemo.app */,
+				8535E6491EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.xctest */,
+				8535E6541EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8535E6321EDFB02600D06F16 /* EMPasswordIInputViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8535E6661EDFB14200D06F16 /* EMPasswordInputView */,
+				8535E6361EDFB02700D06F16 /* AppDelegate.h */,
+				8535E6371EDFB02700D06F16 /* AppDelegate.m */,
+				8535E6391EDFB02700D06F16 /* ViewController.h */,
+				8535E63A1EDFB02700D06F16 /* ViewController.m */,
+				8535E63C1EDFB02800D06F16 /* Main.storyboard */,
+				8535E63F1EDFB02900D06F16 /* Assets.xcassets */,
+				8535E6411EDFB02900D06F16 /* LaunchScreen.storyboard */,
+				8535E6441EDFB02900D06F16 /* Info.plist */,
+				8535E6331EDFB02600D06F16 /* Supporting Files */,
+			);
+			path = EMPasswordIInputViewDemo;
+			sourceTree = "<group>";
+		};
+		8535E6331EDFB02600D06F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8535E6341EDFB02600D06F16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8535E64C1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8535E64D1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.m */,
+				8535E64F1EDFB02A00D06F16 /* Info.plist */,
+			);
+			path = EMPasswordIInputViewDemoTests;
+			sourceTree = "<group>";
+		};
+		8535E6571EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8535E6581EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.m */,
+				8535E65A1EDFB02A00D06F16 /* Info.plist */,
+			);
+			path = EMPasswordIInputViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		8535E6661EDFB14200D06F16 /* EMPasswordInputView */ = {
+			isa = PBXGroup;
+			children = (
+				8535E6671EDFB14D00D06F16 /* EMPasswordInputView.h */,
+				8535E6681EDFB14D00D06F16 /* EMPasswordInputView.m */,
+			);
+			path = EMPasswordInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8535E62F1EDFB02600D06F16 /* EMPasswordIInputViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8535E65D1EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemo" */;
+			buildPhases = (
+				8535E62C1EDFB02600D06F16 /* Sources */,
+				8535E62D1EDFB02600D06F16 /* Frameworks */,
+				8535E62E1EDFB02600D06F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMPasswordIInputViewDemo;
+			productName = EMPasswordIInputViewDemo;
+			productReference = 8535E6301EDFB02600D06F16 /* EMPasswordIInputViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8535E6481EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8535E6601EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemoTests" */;
+			buildPhases = (
+				8535E6451EDFB02A00D06F16 /* Sources */,
+				8535E6461EDFB02A00D06F16 /* Frameworks */,
+				8535E6471EDFB02A00D06F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8535E64B1EDFB02A00D06F16 /* PBXTargetDependency */,
+			);
+			name = EMPasswordIInputViewDemoTests;
+			productName = EMPasswordIInputViewDemoTests;
+			productReference = 8535E6491EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8535E6531EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8535E6631EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemoUITests" */;
+			buildPhases = (
+				8535E6501EDFB02A00D06F16 /* Sources */,
+				8535E6511EDFB02A00D06F16 /* Frameworks */,
+				8535E6521EDFB02A00D06F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8535E6561EDFB02A00D06F16 /* PBXTargetDependency */,
+			);
+			name = EMPasswordIInputViewDemoUITests;
+			productName = EMPasswordIInputViewDemoUITests;
+			productReference = 8535E6541EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8535E6281EDFB02600D06F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eric MiAo";
+				TargetAttributes = {
+					8535E62F1EDFB02600D06F16 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JZUFPKUG8J;
+						ProvisioningStyle = Automatic;
+					};
+					8535E6481EDFB02A00D06F16 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8535E62F1EDFB02600D06F16;
+					};
+					8535E6531EDFB02A00D06F16 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8535E62F1EDFB02600D06F16;
+					};
+				};
+			};
+			buildConfigurationList = 8535E62B1EDFB02600D06F16 /* Build configuration list for PBXProject "EMPasswordIInputViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8535E6271EDFB02500D06F16;
+			productRefGroup = 8535E6311EDFB02600D06F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8535E62F1EDFB02600D06F16 /* EMPasswordIInputViewDemo */,
+				8535E6481EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests */,
+				8535E6531EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8535E62E1EDFB02600D06F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8535E6431EDFB02900D06F16 /* LaunchScreen.storyboard in Resources */,
+				8535E6401EDFB02900D06F16 /* Assets.xcassets in Resources */,
+				8535E63E1EDFB02800D06F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6471EDFB02A00D06F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6521EDFB02A00D06F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8535E62C1EDFB02600D06F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8535E6691EDFB14D00D06F16 /* EMPasswordInputView.m in Sources */,
+				8535E63B1EDFB02700D06F16 /* ViewController.m in Sources */,
+				8535E6381EDFB02700D06F16 /* AppDelegate.m in Sources */,
+				8535E6351EDFB02700D06F16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6451EDFB02A00D06F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8535E64E1EDFB02A00D06F16 /* EMPasswordIInputViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8535E6501EDFB02A00D06F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8535E6591EDFB02A00D06F16 /* EMPasswordIInputViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8535E64B1EDFB02A00D06F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8535E62F1EDFB02600D06F16 /* EMPasswordIInputViewDemo */;
+			targetProxy = 8535E64A1EDFB02A00D06F16 /* PBXContainerItemProxy */;
+		};
+		8535E6561EDFB02A00D06F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8535E62F1EDFB02600D06F16 /* EMPasswordIInputViewDemo */;
+			targetProxy = 8535E6551EDFB02A00D06F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8535E63C1EDFB02800D06F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8535E63D1EDFB02800D06F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8535E6411EDFB02900D06F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8535E6421EDFB02900D06F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8535E65B1EDFB02A00D06F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8535E65C1EDFB02A00D06F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8535E65E1EDFB02A00D06F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JZUFPKUG8J;
+				INFOPLIST_FILE = EMPasswordIInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		8535E65F1EDFB02A00D06F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JZUFPKUG8J;
+				INFOPLIST_FILE = EMPasswordIInputViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		8535E6611EDFB02A00D06F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMPasswordIInputViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMPasswordIInputViewDemo.app/EMPasswordIInputViewDemo";
+			};
+			name = Debug;
+		};
+		8535E6621EDFB02A00D06F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMPasswordIInputViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMPasswordIInputViewDemo.app/EMPasswordIInputViewDemo";
+			};
+			name = Release;
+		};
+		8535E6641EDFB02A00D06F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMPasswordIInputViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMPasswordIInputViewDemo;
+			};
+			name = Debug;
+		};
+		8535E6651EDFB02A00D06F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMPasswordIInputViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.EMPasswordIInputViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMPasswordIInputViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8535E62B1EDFB02600D06F16 /* Build configuration list for PBXProject "EMPasswordIInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8535E65B1EDFB02A00D06F16 /* Debug */,
+				8535E65C1EDFB02A00D06F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8535E65D1EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8535E65E1EDFB02A00D06F16 /* Debug */,
+				8535E65F1EDFB02A00D06F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8535E6601EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8535E6611EDFB02A00D06F16 /* Debug */,
+				8535E6621EDFB02A00D06F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8535E6631EDFB02A00D06F16 /* Build configuration list for PBXNativeTarget "EMPasswordIInputViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8535E6641EDFB02A00D06F16 /* Debug */,
+				8535E6651EDFB02A00D06F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8535E6281EDFB02600D06F16 /* Project object */;
+}
